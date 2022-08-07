@@ -1,0 +1,246 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Dancing Script', cursive;
+        }
+        
+         :root {
+            width: 100%;
+            height: 100%;
+            --background: linear-gradient(#d1b0da, #9f88a5);
+            ;
+            --btn-color-one: #b893c2;
+            --btn-color-two: #816d86;
+        }
+        
+        body {
+            background: var(--background-color);
+        }
+        
+        #header {
+            width: 100%;
+        }
+        
+        #img {
+            float: left;
+            display: flex;
+            width: fit-content;
+            height: fit-content;
+            justify-content: flex-start;
+            padding-top: 2.5rem;
+            padding-left: 2.2rem;
+            flex-wrap: wrap;
+            width: 8rem;
+        }
+        
+        .title {
+            text-align: center;
+            font-size: 1.4rem;
+            padding: 2.5rem 5.2rem;
+        }
+        
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 2.2rem;
+        }
+        
+        #texto {
+            font-size: 1rem;
+            color: var(--btn-color-two);
+            margin-top: 1.5rem;
+            width: 18.6rem;
+            height: 19.6rem;
+            background: var(--background-color);
+            resize: none;
+            outline: none;
+            border: none;
+        }
+        
+        #texto2 {
+            margin-top: 1.5rem;
+            width: 18.6rem;
+            height: 26.4rem;
+            min-width: 15rem;
+            resize: none;
+            outline: none;
+            border-radius: 0.5rem;
+            border: 0.3rem solid var(--btn-color-two);
+            box-shadow: 1rem 0.7rem 0.7rem rgba(0, 0, 0, 0.19), 1rem 0.9rem 0.9rem rgba(0, 0, 0, 0.23);
+        }
+        
+        .background {
+            font-size: 1rem;
+            background: -linear-gradient(#d1b0da, #9f88a5);
+            color: var(--background-color);
+        }
+        
+        .warning {
+            color: rgb(0, 0, 0);
+            position: relative;
+            font-size: 0.7rem;
+            left: 1.1rem;
+            top: 1rem;
+        }
+        
+        #gif {
+            position: relative;
+            width: 9rem;
+            margin: -2.2rem;
+            margin-top: 3;
+            height: 6rem;
+            left: 12rem;
+            bottom: 17.5rem;
+        }
+        
+        .flex {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            bottom: -18rem;
+            margin: -3rem;
+        }
+        
+        .nomsg {
+            position: relative;
+            text-align: center;
+        }
+        
+        .enter {
+            position: relative;
+            text-align: center;
+            max-width: fit-content;
+            margin-top: 0.5rem;
+            left: 6.3rem;
+            font-size: 0.7rem;
+            color: #9f88a5;
+        }
+        
+        .z-index {
+            z-index: -1;
+        }
+        
+        .btn {
+            width: 9.1rem;
+            height: 2.8rem;
+            margin: 2.5rem 0;
+            border-radius: 90px;
+        }
+        
+        #encript {
+            background-color: var(--background-color);
+            color: var(--btn-color-one);
+            border-color: var(--btn-color-one);
+            box-shadow: 1rem 0.7rem 0.7rem rgba(0, 0, 0, 0.19);
+            transition: 0.3s;
+        }
+        
+        #encript:hover {
+            background-color: var(--btn-color-one);
+            color: var(--background-color);
+            border-color: var(--background-color);
+            cursor: pointer;
+        }
+        
+        #descript {
+            background-color: var(--btn-color-two);
+            color: black;
+            border-color: var(--btn-color-one);
+            box-shadow: 1rem 0.7rem 0.7rem rgba(0, 0, 0, 0.19);
+            transition: 0.3s;
+        }
+        
+        #descript:hover {
+            background-color: var(--background-color);
+            color: var(--btn-color-two);
+            border-color: var(--btn-color-two);
+            cursor: pointer;
+        }
+        
+        .invalido {
+            font-size: small;
+            text-align: center;
+            border-radius: 90px;
+            width: fit-content;
+            padding: 0.3rem;
+            background-color: var(--btn-color-two);
+            margin: auto;
+            opacity: 0;
+            color: white;
+        }
+        
+        .valido {
+            position: relative;
+            font-size: small;
+            text-align: center;
+            bottom: 1.8rem;
+            border-radius: 1rem;
+            width: fit-content;
+            padding: 0.3rem;
+            background-color: var(--btn-color-one);
+            margin: auto;
+            opacity: 0;
+            color: white;
+        }
+        
+        #copiar {
+            width: 6.1rem;
+            height: 2.2rem;
+            background-color: var(--btn-color-two);
+            color: var(--background-color);
+            border-color: white;
+            border-radius: 20px;
+            box-shadow: 1rem 0.7rem 0.7rem rgba(0, 0, 0, 0.19);
+            transition: 0.3s;
+        }
+        
+        #copiar:hover {
+            background-color: var(--background-color);
+            border-color: var(--btn-color-two);
+            color: var(--btn-color-two);
+            cursor: pointer;
+        }
+        
+        #limpar {
+            width: 6.1rem;
+            height: 2.2rem;
+            background-color: var(--background-color);
+            color: var(--btn-color-one);
+            border-color: var(--btn-color-one);
+            border-radius: 20px;
+            box-shadow: 1rem 0.7rem 0.7rem rgba(0, 0, 0, 0.19);
+            transition: 0.3s;
+        }
+        
+        #limpar:hover {
+            background-color: var(--btn-color-one);
+            color: var(--background-color);
+            border-color: var(--background-color);
+            cursor: pointer;
+        }
+        
+        footer {
+            /* bottom: 0; */
+            font-family: 'Dancing Script', cursive;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            font-size: 15px;
+            height: 12vh;
+        }
+        
+        footer p {
+            margin: 0 10px;
+        }
+        
+        footer img {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .links {
+            margin: 1rem;
+        }
