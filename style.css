@@ -245,3 +245,13 @@
         .links {
             margin: 1rem;
         }
+        
+        .c640 {
+            display: block;
+        }
+        
+        @media (max-width: 640px) {
+            .c640 {
+                display: none;
+            }
+        }
