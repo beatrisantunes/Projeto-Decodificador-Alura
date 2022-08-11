@@ -20,6 +20,7 @@
         
         #header {
             width: 100%;
+            /*border-bottom: 0.15rem #006466 solid;  <-- borda para a navegação no modo mobile*/
         }
         
         #img {
