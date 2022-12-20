@@ -23,4 +23,4 @@ Codificador/decodificador de texto usando HTML, CSS e JavaScript, onde as letras
   
 ## Link:
 
-[🔗 Clique aqui para acessar](https://beatrisantunes.github.io/Projeto-Decodificador-Alura/)
+[🔗 Site ](https://beatrisantunes.github.io/Projeto-Decodificador-Alura/)
